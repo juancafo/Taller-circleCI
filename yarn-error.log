@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\motas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;;C:\Users\motas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\motas\AppData\Roaming\npm;C:\Users\motas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.5.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\motas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:427:28)
+      at ClientRequest.emit (events.js:321:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:427:28)
+      at TLSSocket.emit (events.js:321:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "taller",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "3.4.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
